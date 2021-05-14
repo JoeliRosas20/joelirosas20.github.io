@@ -1,4 +1,4 @@
-//import Site from '.Site';
+import Site from '.Site';
 import './App.css';
 import React from 'react';
 
@@ -21,7 +21,7 @@ function App() {
         </a>
       </header>
       <Site/>*/}
-      
+      Check
     </div>
   );
 }
