@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import Site from './Site';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         </a>
       </header>
       <Site/>*/}
-      Check
+      Check:
+      <Site/>
     </div>
   );
 }
