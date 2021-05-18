@@ -6,7 +6,7 @@ function AboutMe() {
         <div>
             About Me
             <br></br>
-            <a href={Resume} target = "_blank">My Resume</a>
+            <a href={Resume} target = "_blank" rel="noopener noreferrer">My Resume</a>
         </div>
     )
 }
