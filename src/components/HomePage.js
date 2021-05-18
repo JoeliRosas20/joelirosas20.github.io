@@ -7,6 +7,10 @@ function HomePage() {
             Home:
             <br></br>
             <Link to="/projects">Projects</Link>
+            <br></br>
+            <Link to="/about">About Me</Link>
+            <br></br>
+            <Link to="/contact">Contact Info</Link>
         </div>
     )
 }
