@@ -13,6 +13,10 @@ function ContactInfo() {
                 <input
                 type="text"
                 id="name"/>
+                <label htmlFor="email">Email</label>
+                <input
+                type="text"
+                id="email"/>
             </form>
         </div>
     )
