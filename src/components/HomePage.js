@@ -11,6 +11,8 @@ function HomePage() {
             <Link to="/about">About Me</Link>
             <br></br>
             <Link to="/contact">Contact Info</Link>
+            <br></br>
+            <img src="Portrait.jpg" className="App-logo" alt="logo" />
         </div>
     )
 }
