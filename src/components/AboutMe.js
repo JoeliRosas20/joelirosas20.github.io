@@ -1,11 +1,11 @@
 import React from 'react'
-import Resume from './JoelRosasResume.pdf';
+import Resume from './MyResume.pdf';
 
 function AboutMe() {
     return (
         <div>
             About Me
-            <a href={Resume}/>
+            <a href={Resume} target = "_blank">My Resume</a>
         </div>
     )
 }
