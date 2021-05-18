@@ -9,7 +9,9 @@ function Site() {
     return (
         <Router>
             <Route path="/" component = {HomePage}/>
-            <Route path="/" component = {MyProjects}/>
+            <Link path="/MyProjects">Projects</Link>
+            <Route path="/" component = {AboutMe}/>
+            <Route path="/" component = {ContactInfo}/>
         </Router>
     )
 }
