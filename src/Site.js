@@ -10,8 +10,9 @@ function Site() {
         <Router>
             <Route path="/" component = {HomePage}/>
             <Link path="/MyProjects">Projects</Link>
-            <Route path="/" component = {AboutMe}/>
-            <Route path="/" component = {ContactInfo}/>
+            <Route path="/projects" component = {MyProjects}/>
+            <Route path="/about" component = {AboutMe}/>
+            <Route path="/contact" component = {ContactInfo}/>
         </Router>
     )
 }
