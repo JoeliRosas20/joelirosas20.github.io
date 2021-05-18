@@ -5,6 +5,7 @@ function AboutMe() {
     return (
         <div>
             About Me
+            <br></br>
             <a href={Resume} target = "_blank">My Resume</a>
         </div>
     )
