@@ -21,7 +21,7 @@ function App() {
         </a>
       </header>
       <Site/>*/}
-      Check:
+      Welcome:
       <Site/>
     </div>
   );
