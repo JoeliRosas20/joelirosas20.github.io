@@ -8,11 +8,12 @@ import {BrowserRouter as Router, Route, Switch, Link, Redirect} from 'react-rout
 function Site() {
     return (
         <Router>
-            <Route path="/" component = {HomePage}/>
-            <Link path="/MyProjects">Projects</Link>
-            <Route path="/projects" component = {MyProjects}/>
-            <Route path="/about" component = {AboutMe}/>
-            <Route path="/contact" component = {ContactInfo}/>
+            <Switch>
+                <Route exact path="/" component = {HomePage}/>
+                <Route exact path="/projects" component = {MyProjects}/>
+                <Route exact path="/about" component = {AboutMe}/>
+                <Route exact path="/contact" component = {ContactInfo}/>
+            </Switch>
         </Router>
     )
 }
