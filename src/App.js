@@ -19,8 +19,7 @@ function App() {
         >
           Check Me Out!
         </a>
-      </header>
-      <Site/>*/}
+      </header>*/}
       <Site/>
     </div>
   );
