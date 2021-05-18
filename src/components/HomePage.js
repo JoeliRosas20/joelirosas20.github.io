@@ -12,7 +12,9 @@ function HomePage() {
             <br></br>
             <Link to="/contact">Contact Info</Link>
             <br></br>
-            <img src="Portrait.jpg" className="App-logo" alt="logo" />
+            <img src="Portrait.jpg" className="App-logo" alt="portrait" />
+            <br></br>
+            Hello, I am Joel Rosas and I am mastering React!
         </div>
     )
 }
