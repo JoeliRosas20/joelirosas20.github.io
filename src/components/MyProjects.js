@@ -9,6 +9,8 @@ function MyProjects() {
             <Link to="/SpaceGame">Space Game</Link>
             <br></br>
             <Link to="/ClothesApp">Clothes App</Link>
+            <br></br>
+            <Link to="/">Home</Link>
         </div>
     )
 }

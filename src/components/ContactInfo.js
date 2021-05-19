@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function ContactInfo() {
     return (
@@ -22,6 +23,7 @@ function ContactInfo() {
                 <label htmlFor="message">Send me a message!</label>
                     <textarea rows="10" cols="30" id="message"/>
             </form>
+            <Link to="/">Home</Link>
         </div>
     )
 }
