@@ -3,7 +3,7 @@ import AboutMe from './components/AboutMe';
 import ContactInfo from './components/ContactInfo';
 import HomePage from './components/HomePage';
 import MyProjects from './components/MyProjects';
-import {BrowserRouter as Router, Route, Switch, Link, Redirect} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import SpaceGame from './pages/SpaceGame';
 import ClothesApp from './pages/ClothesApp';
 
