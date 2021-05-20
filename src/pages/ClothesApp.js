@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 function ClothesApp() {
     return (
         <div>
-            The clothes App
+            <h1>The clothes App</h1>
             <br></br>
             <Link to="/projects">Projects</Link>
         </div>

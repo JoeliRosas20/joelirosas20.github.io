@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function MyProjects() {
     return (
         <div>
-            Welcome to Projects
+            <h1>Welcome to Projects</h1>
             <br></br>
             <Link to="/SpaceGame">Space Game</Link>
             <br></br>

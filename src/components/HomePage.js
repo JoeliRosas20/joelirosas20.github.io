@@ -5,7 +5,7 @@ import portrait from './MyPortrait.jpg'
 function HomePage() {
     return (
         <div>
-            Home:
+            <h1>Home</h1>
             <br></br>
             <Link to="/projects">Projects</Link>
             <br></br>

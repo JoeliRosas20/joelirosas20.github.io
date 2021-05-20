@@ -8,7 +8,7 @@ const onFormSubmit = (event) => {
 function ContactInfo() {
     return (
         <div>
-            Contact Info
+            <h1>Contact Info</h1>
             <br></br>
             Gmail: joeli.rosas20@gmail.com
             <br></br> 
