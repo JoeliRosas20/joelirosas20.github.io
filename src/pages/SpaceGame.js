@@ -5,7 +5,6 @@ function SpaceGame() {
     return (
         <div>
             <h1>The Space Game</h1>
-            <br></br>
             <Link to="/projects">Projects</Link>
         </div>
     )

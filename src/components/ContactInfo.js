@@ -9,7 +9,6 @@ function ContactInfo() {
     return (
         <div>
             <h1>Contact Info</h1>
-            <br></br>
             Gmail: joeli.rosas20@gmail.com
             <br></br> 
             <a href="https://www.linkedin.com/in/joel-rosas-50b653170/" target="_blank" rel="noopener noreferrer"> Linkedin</a>

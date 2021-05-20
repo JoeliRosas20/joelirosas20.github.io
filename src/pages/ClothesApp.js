@@ -5,7 +5,6 @@ function ClothesApp() {
     return (
         <div>
             <h1>The clothes App</h1>
-            <br></br>
             <Link to="/projects">Projects</Link>
         </div>
     )

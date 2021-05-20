@@ -6,7 +6,6 @@ function HomePage() {
     return (
         <div>
             <h1>Home</h1>
-            <br></br>
             <Link to="/projects">Projects</Link>
             <br></br>
             <Link to="/about">About Me</Link>
