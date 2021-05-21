@@ -6,10 +6,12 @@ import MyProjects from './components/MyProjects';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import SpaceGame from './pages/SpaceGame';
 import ClothesApp from './pages/ClothesApp';
+import NavBar from './components/NavBar'
 
 function Site() {
     return (
         <Router>
+            <NavBar/>
             <Switch>
                 <Route exact path="/" component = {HomePage}/>
                 <Route exact path="/projects" component = {MyProjects}/>
