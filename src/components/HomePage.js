@@ -6,8 +6,6 @@ function HomePage() {
     return (
         <div>
             <h1>Home</h1>
-            <Link to="/contact">Contact Info</Link>
-            <br></br>
             <img src={portrait} className='App-logo' alt="portrait" />
             <br></br>
             Hello, I am Joel Rosas and I am mastering React!

@@ -21,6 +21,11 @@ function NavBar() {
                             Projects
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/contact">
+                            Contact Info
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
         </nav>
