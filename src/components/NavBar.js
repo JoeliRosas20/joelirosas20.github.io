@@ -5,6 +5,7 @@ function NavBar() {
     return (
         <nav>
             <div>
+                Joel's Resume Page
                 <ul>
                     <li>
                         <NavLink to = "/">
