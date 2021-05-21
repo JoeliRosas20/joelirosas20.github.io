@@ -7,7 +7,9 @@ function NavBar() {
             <div>
                 <ul>
                     <li>
-                        Home
+                        <NavLink to = "/">
+                            Home
+                        </NavLink>
                     </li>
                     <li>
                         About
