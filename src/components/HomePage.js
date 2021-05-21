@@ -6,10 +6,6 @@ function HomePage() {
     return (
         <div>
             <h1>Home</h1>
-            <Link to="/projects">Projects</Link>
-            <br></br>
-            <Link to="/about">About Me</Link>
-            <br></br>
             <Link to="/contact">Contact Info</Link>
             <br></br>
             <img src={portrait} className='App-logo' alt="portrait" />

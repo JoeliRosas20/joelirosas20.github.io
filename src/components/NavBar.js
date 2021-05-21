@@ -12,10 +12,14 @@ function NavBar() {
                         </NavLink>
                     </li>
                     <li>
-                        About
+                        <NavLink to="/about">
+                            About Me
+                        </NavLink>
                     </li>
                     <li>
-                        Projects
+                        <NavLink to="/projects">
+                            Projects
+                        </NavLink>
                     </li>
                 </ul>
             </div>

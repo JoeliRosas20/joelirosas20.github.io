@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 const onFormSubmit = (event) => {
     alert("Successfully submitted!")
@@ -28,7 +27,6 @@ function ContactInfo() {
                 <br></br>
                 <button type="submit" onClick={onFormSubmit}>submit</button>
             </form>
-            <Link to="/">Home</Link>
         </div>
     )
 }
