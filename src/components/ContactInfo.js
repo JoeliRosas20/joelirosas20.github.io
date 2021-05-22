@@ -26,23 +26,31 @@ class ContactInfo extends Component{
             <div>
                 <h1>Contact Info</h1>
                 Gmail: joeli.rosas20@gmail.com
-                <br></br> 
-                <a href="https://www.linkedin.com/in/joel-rosas-50b653170/" target="_blank" rel="noopener noreferrer"> Linkedin</a>
+                <br/>
+                <a 
+                href="https://www.linkedin.com/in/joel-rosas-50b653170/" 
+                target="_blank" 
+                rel="noopener noreferrer"> 
+                    Linkedin
+                </a>
                 <form>
                     <label htmlFor="name">Name</label>
                         <input
                         type="text"
                         id="name"
                         onChange = {(event) => this.handleChange(event)}/>
-                        <br></br>
+                        <br/>
                     <label htmlFor="email">Email</label>
                         <input
                         type="text"
                         id="email"/>
-                        <br></br>
+                        <br/>
                     <label htmlFor="message">Send me a message!</label>
-                        <textarea rows="10" cols="30" id="message"/>
-                    <br></br>
+                        <textarea 
+                        rows="10" 
+                        cols="30" 
+                        id="message"/>
+                        <br/>
                     <button type="submit" onClick={this.onFormSubmit}>submit</button>
                 </form>
             </div>

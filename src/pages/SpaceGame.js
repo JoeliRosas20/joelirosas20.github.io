@@ -5,7 +5,9 @@ function SpaceGame() {
     return (
         <div>
             <h1>The Space Game</h1>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects">
+                Projects
+            </Link>
         </div>
     )
 }

@@ -9,8 +9,11 @@ function HomePage() {
     return (
         <div>
             <h1>Home</h1>
-            <img src={portrait} className='App-logo' alt="portrait" />
-            <br></br>
+            <img 
+            src={portrait} 
+            className='App-logo' 
+            alt="portrait" />
+            <br/>
             Hello, I am Joel Rosas and I am mastering React!
         </div>
     )
