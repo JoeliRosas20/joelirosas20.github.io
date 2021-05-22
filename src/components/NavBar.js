@@ -1,6 +1,11 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 
+/**
+ * The navigation bar which helps the user jump to each page
+ * being the Home, About Me, Projects, and Contact
+ */
+
 function NavBar() {
     return (
         <nav>
