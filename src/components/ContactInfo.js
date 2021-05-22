@@ -1,5 +1,9 @@
-
 import React, { Component } from 'react'
+
+/**
+ * This is the ContactInfo class where the user can see my email, linkedin
+ * and they can submit me an email
+ */
 
 class ContactInfo extends Component{
     constructor(props){

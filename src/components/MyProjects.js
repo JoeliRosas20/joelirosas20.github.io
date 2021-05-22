@@ -1,6 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 
+/**
+ * This class shows links to my projects
+ */
+
 function MyProjects() {
     return (
         <div>

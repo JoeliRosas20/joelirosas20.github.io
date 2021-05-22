@@ -1,6 +1,10 @@
 import React from 'react'
 import portrait from './MyPortrait.jpg'
 
+/**
+ * This is the home page for when the user gets to the site, they go here first
+ */
+
 function HomePage() {
     return (
         <div>
