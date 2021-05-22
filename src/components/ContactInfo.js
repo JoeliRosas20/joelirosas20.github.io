@@ -10,13 +10,11 @@ class ContactInfo extends Component{
     }
 
     handleChange = (event) =>{
-        console.log("Inside this method")
         this.setState({userName: event.target.value});
-        console.log("Leaving this method")
     }
 
     onFormSubmit = (event) => {
-        alert(this.state.userName + " Successfully submitted!")
+        alert("Hey "+this.state.userName + " your message sent successfully!")
     }
 
     render() {
